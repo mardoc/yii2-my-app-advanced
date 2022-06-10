@@ -1,0 +1,70 @@
+.header-lang {
+    position: relative;
+    margin-left: 15px;
+    padding-right: 12px;
+    top: 14px;
+}
+.header-lang::after {
+    content: "";
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    width: 6px;
+    height: 5px;
+    padding: 0;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background: url(../img/arrow.svg) no-repeat 50% 50%;
+}
+.header-lang__list {
+    position: absolute;
+    top: 20px;
+    list-style: none;
+    z-index: 3;
+    border-radius: 4px;
+    background-color: #495a8d;
+}
+.header-lang__img {
+    width: 15px;
+    height: auto;
+    margin-right: 5px;
+}
+.header-lang__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 0;
+    list-style: none;
+    overflow: hidden;
+    -webkit-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.header-lang .open {
+    padding: 5px;
+}
+.open .header-lang__item{
+    height: initial;
+}
+.header-lang__link {
+    cursor: pointer;
+}
+.header-lang__link, .header-lang__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
