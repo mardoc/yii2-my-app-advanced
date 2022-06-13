@@ -69,5 +69,5 @@ migrations/m220602_134010_add_role_column_to_user_table.php
    ```
 php yii rbac/init
    ```
- дктальнее (https://github.com/mardoc/rbac)
+ дктальнее об RBAC (https://github.com/mardoc/rbac)
   
